@@ -1,12 +1,12 @@
 {
-    "name"        : "jf-array-diff",
-    "version"     : "0.1.0",
-    "description" : "Find diffs of two arrays",
-    "author"      : "Joaquín Fernández",
-    "license"     : "MIT",
-    "homepage"    : "http://www.joaquinfernandez.net",
-    "repository"  : {
-        "type" : "git",
-        "url"  : "https://github.com/joaquinfq/jf-array-diff"
+    "name": "jf-array-diff",
+    "version": "0.1.1",
+    "description": "Find diffs of two arrays",
+    "author": "Joaquín Fernández",
+    "license": "MIT",
+    "homepage": "http://www.joaquinfernandez.net",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joaquinfq/jf-array-diff"
     }
 }

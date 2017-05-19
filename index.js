@@ -51,7 +51,7 @@ function getValues(input)
     let _values;
     if (Array.isArray(input))
     {
-        _values = input.sort();
+        _values = [].concat(input).sort();
     }
     else if (input && typeof input === 'object')
     {
@@ -121,8 +121,8 @@ module.exports = function jfArrayDiff(arr1, arr2)
                 ++_idx2;
             }
         }
-        _left.push(..._arr1.splice(_idx1));
-        _right.push(..._arr2.splice(_idx2));
+        _left.push(..._arr1.slice(_idx1));
+        _right.push(..._arr2.slice(_idx2));
     }
     //
     return [_left, _equal, _right];
